@@ -26,10 +26,24 @@ print(my_first_list)
 
 my_first_tuple = (STR4, 12, 7.8, "Tech is good")
 
-print(my_first_list)
+print(my_first_tuple)
 
 #Dictionary:
 # This is a collection of key value pairs
 # All elements are usually in pair Key:value
 # curly brackets{}
+
+my_first_dictionary = {"DevOps" : "Collaboration", "Certification" : "gain hands on experience", "Experience" : [4,6,8,] }
+print(my_first_dictionary)
+
+print(type(my_first_tuple))
+print(type(my_first_dictionary))
+print(type(my_first_list))
+
+# Boolean
+x = True
+y = False
+print(type(x))
+
+
 
