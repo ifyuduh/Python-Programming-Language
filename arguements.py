@@ -9,10 +9,13 @@ def add_numbers(x, y):
 result = add_numbers(2, 3)
 print(result) # Output: 5
 
-# In this case, the value 2 is passed as the first argument, which corresponds to the x parameter
-# in the function definition,
-# and the value 3 is passed as the second argument, 
-# which corresponds to the y parameter in the function definition.
+'''
+In this case, the value 2 is passed as the first argument, which corresponds to the x parameter
+in the function definition,
+and the value 3 is passed as the second argument, 
+which corresponds to the y parameter in the function definition.
+
+'''
 
 # Keyword Argument:
 # keyword arguments, you explicitly specify which parameter 
