@@ -7,6 +7,10 @@ print(indexing_list)
 # Positive Indexing starts from 0
 # Positive prints the number before
 # Negative indexing starts from -1
+# Negative indexing in Python provides a convenient way to access elements from the end of the sequence. 
+# In Python, negative indices are counted from the end of the sequence, starting from -1 for the last element, -2 for the second to last, and so on
+# This helps make reference to the end of a sequence with knowing the end of the sequence before hand 
+
 print(indexing_list[0])
 print(indexing_list[1])
 print(indexing_list[2])
@@ -15,7 +19,7 @@ print(indexing_list[3])
 print(indexing_list[-1]) #Negative indexing
 print(indexing_list[-2])
 
-#Slicing a string ie to get a sub string from a string
+#Slicing a string means creating a substring from a string
 print(indexing_list[0:3])
 print(indexing_list[:])
 print(indexing_list[:6])
@@ -24,9 +28,12 @@ print(indexing_list[:6])
 
 class_age = [1990, 1967, 2000, [[1930, 8765, 2004], [783, 756, 456]]]
 print(class_age[-1])
+#The blue and purple brackets are substrings inside the string
+#As you can see, this printed out the last sequence in the data structure
 
 project = {'key1' : 1991, 'key2' : 1992, 'key3' : 1993, 'key4' : 1987, 'key5': 6,}
 print(project['key1'])
+#As you can see ,this printed the first keypair value
 
 class_age=[1990, 2000, 1987, 1954, [1995, 1980, 1979, 1960, [2000, 2001,2002]], 1995]
 
