@@ -25,9 +25,8 @@ print(indexing_list[:6])
 class_age = [1990, 1967, 2000, [[1930, 8765, 2004], [783, 756, 456]]]
 print(class_age[-1])
 
-
-project = {'key1' : 1991,  'key2' : 1992, 'key3' : 1993, 'key4' : 1987, 'key5': 6,}
-print([key4])
+project = {'key1' : 1991, 'key2' : 1992, 'key3' : 1993, 'key4' : 1987, 'key5': 6,}
+print(project['key1'])
 
 class_age=[1990, 2000, 1987, 1954, [1995, 1980, 1979, 1960, [2000, 2001,2002]], 1995]
 

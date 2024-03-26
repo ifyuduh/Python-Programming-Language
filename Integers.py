@@ -17,3 +17,9 @@ print(difference) # Output: 1000085
 # Multiplication
 product = age * count
 print(product) # Output: 0
+
+def add_numbers(x, y):
+    return x + y
+
+result = add_numbers(2, 3)
+print(result) # Output: 5

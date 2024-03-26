@@ -18,22 +18,22 @@ until the number you're counting gets to the stopping point.
 """
 
 # FOR LOOP
-"""
+
 Jobina = "DevOps Engineer"
 for i in Jobina:
     print(f" The value of i is now", i )
     
-"""
 
-#Vaccines = ("pfizer", "Moderna", "Covaxin", "Astrazeneca") #iterating over a tuple
 
-#for vac in Vaccines: #this can be any variable it can be i, vac or anything
-#    print(f"{vac}  vaccines provides immunization against Covid 19")
+Vaccines = ("pfizer", "Moderna", "Covaxin", "Astrazeneca") #iterating over a tuple
+
+for vac in Vaccines: #this can be any variable it can be i, vac or anything
+  print(f"{vac}  vaccines provides immunization against Covid 19")
     
     
-#Vaccines = ["pfizer", "Moderna", "Covaxin", "Astrazeneca"] #iterating over a list
-#for i in Vaccines:
-#    print(f"{i} is one of the best Vaccines")
+Vaccines = ["pfizer", "Moderna", "Covaxin", "Astrazeneca"] #iterating over a list
+for i in Vaccines:
+  print(f"{i} is one of the best Vaccines")
 
 
 #WHILE LOOP

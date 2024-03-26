@@ -1,22 +1,22 @@
 # IF condition:
-"""
+
 
 x = 45
-if (x > 20): # if x is less than. Indentation three spaces.
+if (x > 20): # if x is greater than. Indentation three spaces.
+    print("I am in the f block")
+    print("x is actually greater than 20")
+    
+print("This is the end of the code")
+
+
+x = 45
+if (x < 20):  #if x is less than
     print("I am in the f block")
     print("x is actually less than 20")
     
 print("This is the end of the code")
 
 
-x = 45
-if (x < 20):  #if x is greater than
-    print("I am in the f block")
-    print("x is actually less than 20")
-    
-print("This is the end of the code")
-
-"""
 """
 # IF/ELSE Condition:
 x = 15

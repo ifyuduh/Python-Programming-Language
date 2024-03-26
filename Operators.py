@@ -103,6 +103,16 @@ print(result)
 result = a is not b 
 print(result)
 
+# Example using +=
+x = 5
+x += 3  # Equivalent to x = x + 3
+print(x)  # Output: 8
+
+# Example using -=
+y = 10
+y -= 2  # Equivalent to y = y - 2
+print(y)  # Output: 8
+
 
 
 
